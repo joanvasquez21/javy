@@ -1,130 +1,132 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #CBE0E9;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F2F6F8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-  }
-  
-  .card {
+}
+
+.card {
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
     text-align: center;
-    padding: 20px;
-  }
-  
-  .card-header {
+    padding: 30px;
+    border: 1px solid #E0E4E8;
+}
+
+.card-header {
     margin-bottom: 20px;
-  }
-  
-  .icon-container {
-    background-color: #CBE0E9;
+}
+
+.icon-container {
+    background-color: #E8F0FE;
     padding: 20px;
     border-radius: 50%;
     margin: 0 auto;
-    width: 60px;
-    height: 60px;
-  }
-  
-  .icon {
+    width: 80px;
+    height: 80px;
+}
+
+.icon {
     width: 100%;
     height: auto;
-  }
-  
-  .card-title {
-    font-size: 24px;
+}
+
+.card-title {
+    font-size: 28px;
     font-weight: bold;
-    color: #be185d;
-    margin-top: 10px;
-  }
-  
-  .card-content {
+    color: #6D6875;
+    margin-top: 15px;
+}
+
+.card-content {
     margin-bottom: 20px;
-  }
-  
-  .event-date,
-  .event-location {
+}
+
+.event-date,
+.event-location {
     font-size: 16px;
-    color: #4b5563;
-  }
-  
-  .zoom-link a {
-    color: #ec4899;
+    color: #4A5568;
+}
+
+.zoom-link a {
+    color: #A78BFA;
     text-decoration: none;
-  }
-  
-  .zoom-link a:hover {
+    font-weight: bold;
+}
+
+.zoom-link a:hover {
     text-decoration: underline;
-  }
-  
-  .meeting-info {
+}
+
+.meeting-info {
     margin-top: 20px;
-  }
-  
-  .meeting-info p {
+}
+
+.meeting-info p {
     margin: 5px 0;
-    color: #4b5563;
+    color: #4A5568;
     font-size: 14px;
-  }
-  
-  .copy-button {
-    background-color: #00b3ff;
-    color: white;
+}
+
+.copy-button {
+    background-color: #BDE0FE;
+    color: #4A5568;
     border: none;
-    padding: 5px 10px;
+    padding: 5px 12px;
     font-size: 12px;
     margin-left: 10px;
     cursor: pointer;
-    border-radius: 4px;
-  }
-  
-  .copy-button:hover {
-    background-color: #00b3ff;
-  }
-  
-  .calendar-button-container {
-    margin-top: 20px;
-  }
-  
-  .calendar-button {
-    background-color: #00b3ff;
+    border-radius: 8px;
+}
+
+.copy-button:hover {
+    background-color: #CAF0F8;
+}
+
+.calendar-button-container {
+    margin-top: 25px;
+}
+
+.calendar-button {
+    background-color: #A7C7E7;
     color: white;
-    padding: 10px 15px;
+    padding: 12px 20px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     display: inline-flex;
     align-items: center;
-  }
-  
-  .calendar-button:hover {
-    background-color: #00b3ff;
-  }
-  
-  .icon-small {
+    font-weight: bold;
+}
+
+.calendar-button:hover {
+    background-color: #89B5D6;
+}
+
+.icon-small {
     margin-right: 8px;
-    width: 16px;
-    height: 16px;
-  }
-  
-  .card-footer {
-    margin-top: 20px;
-  }
-  
-  .qr-code-container {
-    background-color: #e5e7eb;
-    padding: 40px;
+    width: 18px;
+    height: 18px;
+}
+
+.card-footer {
+    margin-top: 25px;
+}
+
+.qr-code-container {
     display: flex;
-    align-items: center;
     justify-content: center;
-  }
-  
-  .qr-code {
-    width: 100px;
-    height: 100px;
-  }
-  
+    align-items: center;
+    padding: 10px;
+}
+
+.qr-code {
+    width: 120px;
+    height: 120px;
+    background-color: #fff; /* Eliminando el fondo gris */
+}
