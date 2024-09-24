@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Javy & Lissette - Evento</title>
+</head>
+<body>
+
+  <div class="card">
+    <div class="card-header">
+      <div class="icon-container">
+        <img src="javy.webp" alt="Target Icon" class="icon">
+      </div>
+      <h1 class="card-title">Javy & Lissette</h1>
+    </div>
+    <div class="card-content">
+      <p class="event-date">Septiembre 25, 2024 a las 3:00 PM (Hora Española)</p>
+      <p class="event-location">Via Zoom</p>
+      <p class="zoom-link">
+        <a href="https://dexeus.zoom.us/meeting/register/tJcrc-yqpjIsE9xAOk8WNJkcSKFHNUH1gDv0?_x_zm_rtaid=fFaZbbx8RM6xVWLuIXIuPg.1727202002372.b1f03aab7420c65d0bfbf45dee70902a&_x_zm_rhtaid=682#/" target="_blank" rel="noopener noreferrer">
+          Únete a la Reunión de Zoom
+        </a>
+      </p>
+
+      <div class="meeting-info">
+        <p>ID de Reunión: 936 4528 9698 
+          <button class="copy-button" onclick="copyToClipboard('936 4528 9698')">Copiar</button>
+        </p>
+        <p>Contraseña: ow37 
+          <button class="copy-button" onclick="copyToClipboard('ow37')">Copiar</button>
+        </p>
+      </div>
+
+      <div class="calendar-button-container">
+        <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Javy%20%26%20Lissette&dates=20240925T130000Z/20240925T140000Z&details=%C3%9Anete%20a%20Javy%20%26%20Lissette%20en%20la%20reuni%C3%B3n%20de%20Zoom%20%28https://dexeus.zoom.us/meeting/register/tJcrc-yqpjIsE9xAOk8WNJkcSKFHNUH1gDv0%29%0AID%20de%20Reuni%C3%B3n:%20936%204528%209698%0AContrase%C3%B1a:%20ow37&location=Via%20Zoom" target="_blank" rel="noopener noreferrer" class="calendar-button">
+          <img src="go.png" alt="Calendar Icon" class="icon-small"> Añadir a Google Calendar
+        </a>
+      </div>
+    </div>
+    <div class="card-footer">
+      <div class="qr-code-container">
+        <img src="codeqr.png" alt="QR Code" class="qr-code">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(function() {
+        alert("Texto copiado: " + text);
+      }, function(err) {
+        alert('Error al copiar: ', err);
+      });
+    }
+  </script>
+
+</body>
+</html>

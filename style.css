@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #CBE0E9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-header {
+    margin-bottom: 20px;
+  }
+  
+  .icon-container {
+    background-color: #CBE0E9;
+    padding: 20px;
+    border-radius: 50%;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+  }
+  
+  .icon {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #be185d;
+    margin-top: 10px;
+  }
+  
+  .card-content {
+    margin-bottom: 20px;
+  }
+  
+  .event-date,
+  .event-location {
+    font-size: 16px;
+    color: #4b5563;
+  }
+  
+  .zoom-link a {
+    color: #ec4899;
+    text-decoration: none;
+  }
+  
+  .zoom-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .meeting-info {
+    margin-top: 20px;
+  }
+  
+  .meeting-info p {
+    margin: 5px 0;
+    color: #4b5563;
+    font-size: 14px;
+  }
+  
+  .copy-button {
+    background-color: #00b3ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .copy-button:hover {
+    background-color: #00b3ff;
+  }
+  
+  .calendar-button-container {
+    margin-top: 20px;
+  }
+  
+  .calendar-button {
+    background-color: #00b3ff;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+  }
+  
+  .calendar-button:hover {
+    background-color: #00b3ff;
+  }
+  
+  .icon-small {
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .card-footer {
+    margin-top: 20px;
+  }
+  
+  .qr-code-container {
+    background-color: #e5e7eb;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .qr-code {
+    width: 100px;
+    height: 100px;
+  }
+  
